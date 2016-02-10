@@ -1,0 +1,28 @@
+{
+  "esnext": true,
+  "preset": "google",
+
+  "fileExtensions": [".js", ".jsx"],
+
+  "requireCurlyBraces": true,
+  "requireParenthesesAroundIIFE": true,
+
+  "requireCamelCaseOrUpperCaseIdentifiers": {
+    "ignoreProperties": true
+  },
+
+  "maximumLineLength": 120,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+
+  "disallowKeywords": ["with"],
+  "disallowSpacesInsideObjectBrackets": null,
+  "disallowImplicitTypeConversion": ["string"],
+
+  "safeContextKeyword": "that",
+
+  "excludeFiles": [
+    "build/**",
+    "node_modules/**"
+  ]
+}

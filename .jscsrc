@@ -12,6 +12,7 @@
   },
 
   "maximumLineLength": 120,
+  "validateQuoteMarks": null,
   "validateLineBreaks": "LF",
   "validateIndentation": 2,
 
